@@ -8,6 +8,7 @@ div {
    background-color: cyan;
    width: fit-content;
    height: fit-content;
+   border: 2px solid black;
 }
 
 @media (max-width: 576px) {
