@@ -1,24 +1,19 @@
+div:hover {
+    background-color: rebeccapurple
+}
+
 div {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 30%;
-    right: 30%;
-   background-color: cyan;
-   width: fit-content;
-   height: fit-content;
-   border: 2px solid black;
+    transition: background-color 10s;
 }
 
-@media (max-width: 576px) {
-    div {
-        font-size: 20px;
-    }
+button:hover {
+    background-color: black;
+    color: white
 }
 
-@media (max-width: 768px) {
-    div {
-        font-size: 25px;
-    }
+button {
+    transition: all 500ms;
+}
+div::after{
+    content: "frontend simplified";
 }
