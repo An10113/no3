@@ -1,19 +1,16 @@
-div:hover {
-    background-color: rebeccapurple
+*{
+    color:aquamarine;
+    box-sizing: border-box;
 }
-
-div {
-    transition: background-color 10s;
+.container{
+    width: 100%;
+height: 600px;
+border: 4px solid red;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 }
-
-button:hover {
-    background-color: black;
-    color: white
-}
-
-button {
-    transition: all 500ms;
-}
-div::after{
-    content: "frontend simplified";
+.box{
+height: 100px;
+    border: 2px solid black;
 }
