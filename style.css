@@ -4,3 +4,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+.box {
+    height: 100px;
+    weight: 100px;
+    
+}
